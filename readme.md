@@ -22,7 +22,7 @@ The chatbot uses **LangGraph** to create a state machine with the following node
 
 ## Architecture Diagram
 
-![Architecture Diagram](./aichatbotgraph.png)
+![Architecture Diagram](./graph.png)
 
 
 ## Quick Start
