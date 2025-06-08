@@ -1,0 +1,33 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# LangGraph and LangChain
+langgraph==0.2.16
+langchain-core==0.2.38
+langchain==0.2.16
+
+# Groq API
+groq==0.11.0
+
+# Data handling
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# Utilities
+python-dotenv==1.0.0
+httpx==0.25.2
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+requests==2.31.0
+
+# Logging and monitoring
+structlog==23.2.0
+
+# Environtment variable
+python_dotenv
+
+# Extra
+python-dateutil==2.8.2

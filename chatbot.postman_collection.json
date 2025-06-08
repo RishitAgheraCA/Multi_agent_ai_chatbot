@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "9ecce7cd-f161-42c6-8df5-3b7af5d9c969",
+		"name": "AI conversation chatbot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36423272"
+	},
+	"item": [
+		{
+			"name": "Reservation Chatbot",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": \"Hello, I want to book a table.\",\r\n    \"session_id\":\"1\"\r\n}   ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://0.0.0.0:8000/chat",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"chat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get knowledge base",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": \"Yes please confirm\",\r\n    \"session_id\":\"1\"\r\n}   "
+				},
+				"url": {
+					"raw": "http://0.0.0.0:8000/knowledge",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"knowledge"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

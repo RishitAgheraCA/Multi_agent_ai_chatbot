@@ -1,0 +1,15 @@
+services:
+  chatbot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: rishitaghera/table-reservation-bot:latest
+    container_name: table-reservation-bot
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    restart: always
+    
+    
+

@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtualenv
+venv/
+.venv/
+env/
+ENV/
+.Python
+
+# FastAPI/Uvicorn specific
+instance/
+*.db
+*.sqlite3
+
+# IDEs
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.*
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyInstaller
+*.spec
+
+# Docker
+*.tar
+*.bak
+*.swp
+__docker__/
+
+# Node (if using frontend too)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
