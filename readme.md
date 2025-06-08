@@ -55,23 +55,20 @@ cd Multi_agent_ai_chatbot
 echo "GROQ_API_KEY=your_groq_api_key_here" > .env
 ```
 
-3. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
 ### Running Locally
 
 ```bash
+# Install dependencies:
+pip install -r requirements.txt
+
 # Run the application
-python main.py
+python app/main.py
 
 # Or with uvicorn directly
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-The API will be available at `http://localhost:8000`
+The API will be available at `http://0.0.0.0:8000`
 
 ### Running with Docker Compose
 
